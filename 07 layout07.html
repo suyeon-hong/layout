@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* 리셋 */
+        *{padding:0;margin:0;}
+
+        /* 전체 레이아웃 */
+        #wrap{color: #fff; font-size: 20px; text-align: center; text-align: center;}
+
+        /*레이아웃 */
+        .header-top{height: 70px; line-height: 70px; background-color: #B2EBF2;}
+        .header-nav{height: 70px; line-height: 70px; background-color: #80DEEA;}
+        #banner{height: 450px; line-height: 450px; background-color: #4DD0E1;}
+        .content1{height: 90px; line-height: 90px; background-color: #26c6da;}
+        .content2{height: 480px; line-height: 480px; background-color: #00bcd4}
+        .content3{height: 380px; line-height: 380px; background-color: #00acc1;}
+        .footer_nav{height: 60px; line-height: 60px; background-color: #0097a7;}
+        .footer_info{height: 160px; line-height: 160px; background-color: #00838f;}
+
+        /* 컨테이너 */
+        .container{margin: 0 auto; width: 1100px; height: inherit; background-color: rgba(255,255,255,0.3);}
+    </style>
+    <title>Layout07</title>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="header-top">
+                <div class="container">header-top</div>
+            </div>
+            <div class="header-nav">
+                <div class="container">header-nav</div>
+            </div>
+        </header>
+        <!-- //header -->
+        <div id="banner">
+            <div class="container">banner</div>
+        </div>
+        <!-- //banner -->
+        <section id="contents">
+            <article class="content1">
+                <div class="container">content1</div>
+            </article>
+            <article class="content2">
+                <div class="container">content2</div>
+            </article>
+            <article class="content3">
+                <div class="container">content3</div>
+            </article>
+        </section>
+        <!-- //contents -->
+        <footer id="footer">
+            <div class="footer_nav">
+                <div class="container">footer_nav</div>
+            </div>
+            <div class="footer_info">
+                <div class="container">footer_info</div>
+            </div>
+        </footer>
+        <!-- //footer -->
+    </div>
+    <!-- //wrap -->
+</body>
+</html>
